@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Evans fsf</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="format-detection" content="telephone=no">
+
+    <script>
+        /**
+ * If browser back button was used, flush cache
+ * This ensures that user will always see an accurate, up-to-date view based on their state
+ * https://stackoverflow.com/questions/8788802/prevent-safari-loading-from-cache-when-back-button-is-clicked
+ */
+(function () {
+	window.onpageshow = function(event) {
+		if (event.persisted) {
+			window.location.reload();
+		}
+	};
+})();
+    </script>
+
+</head>
+<body onLoad="MM_preloadImages('showcase/showcase1.mov','showcase/showcase2.mov','showcase/showcase3.mov','showcase/showcase4.mov','showcase/showcase5.mov','showcase/showcase6.mov')">
+
+    <!-- ------------------- GRID AREA ------------------------------------------------ -->
+	<div id="container" class="clearfix">
+
+        <header class="flex-items-header" dir="ltr">
+            <section class="headerContent">
+                <a href="index.html" class="head_title"><h1><span class="customHeader">PAUL EVANS<span class="customfsf"> fsf</span></h1></a>
+            <p><span class="customDopText">Director of Photography</span></p>
+        </section>
+        </header>
+
+        <aside class="flex-items-aside">
+            
+            <nav id="main-nav">
+
+                <ul>
+                    
+                <li>
+                    <a href="#"><span class="navFont" id="indexContact2">CONTACT</span></a> 
+
+                    <li>
+                        <a href="promos.index.html" class=""><span class="navFont">PROMOS</span></a>
+            
+                            <li>
+                                <a href="commercial.index.html" class=""><span class="navFont">COMMERCIALS</span></a>
+
+                                <li>
+                                    <a href="narrative.index.html" class=""><span class="navFont">NARRATIVE</span></a>
+                    
+                                    <li>
+                                        <a href="#" class=""><span class="navFont" id="currentpage">HOME</span></a>
+                            
+                                            </ul>
+             </nav> 
+
+             <!---------------------------------- HAMBURGER MENU ------------------------------------------->
+
+             <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" id="ham__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+            
+                <ul class="menu__box">
+                    <li class="hList"><a class="menu__item" href="index.html">Home</a></li>
+            <li class="hList"><a class="menu__item" href="narrative.index.html">Narrative</a></li>
+            <li class="hList"><a class="menu__item" href="commercial.index.html">Commercials</a></li>
+            <li class="hList"><a class="menu__item" href="promos.index.html">Promos</a></li>
+            <li class="hList"><a class="menu__item" id="indexContact">Contact</a></li>
+            
+            
+                </ul>
+              </div>
+
+              <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <span class="contactPageFont"><br>CONTACT <br><br></span> 
+                  <!-- <span class="contactDetailsPageFont">Louise Palmén <br> Magnolia Agency <br> Hornsgatan 82 <br> 118 21 Stockholm <br> M: +46 73 622 88 26 <br> O: +46 8 91 00 08 <br> <a href=mailto:louise.palmen@magnoliaagency.se>louise.palmen@magnoliaagency.se</a> <br><br><br><br></span> -->
+                  <span class="contactDetailsPageFont">Paul Evans <br> M: +46 73 990 88 58 <br> <a href=mailto:paul@paulevans-dop.com>paul@paulevans-dop.com</a></span>
+                </div>
+              
+              </div>
+
+        </aside>
+
+
+    <!------------------------------------- MAIN ----------------------------------------------->
+        
+        <main class="flex-items" dir="ltr"> 
+            <div class="video_container1">
+            <section class="content1"> 
+                <video id="player1" class="vidSlider" autoplay muted playsinline loop>
+                                <source src="showcase/showcase1.mp4" type="video/mp4">
+                        </video>
+                    
+                        <a href="promo_player3_index.html"><ul class="vidNavigation" id="film1_card">
+                            <li id="tag1a"><h1 id="title1">VIAGRA BOYS</h1><span class="videoFont" id="description1">Director: &nbsp; Simon Jung. &nbsp; Diktator</span>  <br /> <span class="videoFont" id="downArrow">⋁</span></li>
+                            <li id="tag1b"><h1 id="playbutton1">PLAY</h1></li>
+                        </ul></a>
+            </section>
+        </div>
+
+
+        <div class="video_container2">
+            <section class="content2">
+                <video id="player2" class="vidSlider" autoplay muted playsinline loop>
+                                <source src="showcase/showcase2.mov" type="video/mp4">
+                        </video> 
+                        <a href="narr_player5_index.html"><ul class="vidNavigation" id="film2_card">
+                            <li id="tag2a"><h1 id="title2">$TR€AM$</h1><span class="videoFont" id="description2">Director: &nbsp; Tiffany Kronlöf. &nbsp; SVT</span></li>
+                            <li id="tag2b"><h1 id="playbutton2">PLAY</h1></li>
+                        </ul></a>
+            </section>
+        </div>
+
+
+        <div class="video_container3">
+            <section class="content3">
+                <video  id="player3" class="vidSlider" autoplay muted playsinline loop>
+                                <source src="showcase/showcase3.mp4" type="video/mp4">
+                        </video>
+
+                        <a href="com_player2_index.html"><ul class="vidNavigation" id="film3_card">
+                            <li id="tag3a"><h1 id="title3">STADIUM</h1><span class="videoFont" id="description3">Director: &nbsp; Simon Jung. &nbsp; Made To Order</span></li>
+                            <li id="tag3b"><h1 id="playbutton3">PLAY</h1></li>
+                        </ul></a>
+            </section>
+        </div>
+
+
+        <div class="video_container4">
+            <section class="content4">
+                <video  id="player4" class="vidSlider" autoplay muted playsinline loop>
+                                <source src="showcase/showcase4.mov" type="video/mp4">
+                        </video>
+
+                        <a href="promo_player1_index.html"><ul class="vidNavigation" id="film4_card">
+                            <li id="tag4a"><h1 id="title4">GHOST</h1><span class="videoFont" id="description4">Director: &nbsp; Amanda Demme. &nbsp; Lomo Vista Recordings</span></li>
+                            <li id="tag4b"><h1 id="playbutton4">PLAY</h1></li>
+                        </ul></a>
+            </section>
+        </div>
+
+
+        <div class="video_container5">
+            <section class="content5">
+                <video  id="player5" class="vidSlider" autoplay muted playsinline loop>
+                                <source src="showcase/showcase5.mov" type="video/mp4">
+                        </video>
+
+                        <a href="narr_player1_index.html"><ul class="vidNavigation" id="film5_card">
+                            <li id="tag5a"><h1 id="title5">LAST JOURNEY OF THE VIKINGS</h1><span class="videoFont" id="description5">Director: &nbsp; James Velasquez. &nbsp; Mopar Studios & Viaplay</span></li>
+                            <li id="tag5b"><h1 id="playbutton5">PLAY</h1></li>
+                        </ul></a>
+            </section>
+        </div>
+
+
+        <div class="video_container6">
+            <section class="content6">
+                <video  id="player6" class="vidSlider" autoplay muted playsinline loop>
+                                <source src="showcase/showcase6.mp4" type="video/mp4">
+                        </video>
+
+                        <a href="com_player1_index.html"><ul class="vidNavigation" id="film6_card">
+                            <li id="tag6a"><h1 id="title6">LAWN MAN</h1><span class="videoFont" id="description6">Director: &nbsp; Fredrik Falck. &nbsp; Milford Film and Animation</span></li>
+                            <li id="tag6b"><h1 id="playbutton6">PLAY</h1></li>
+                        </ul></a>
+            </section>
+        </div>
+
+         </main>
+    
+         <!------------------------------------- FOOTER ----------------------------------------------->
+
+		<footer id="contact">
+            <!-- <section class="box1">
+                <p><span class="custom">Contatct</span> <br><br> Louise Palmén <br> Magnolia Agency <br> Hornsgatan 82 <br> 118 21 Stockholm <br> M: +46 73 622 88 26 <br> O: +46 8 91 00 08 <br> <a href=mailto:louise.palmen@magnoliaagency.se>louise.palmen@magnoliaagency.se</a></p>
+            </section> -->
+
+            <section class="box1">
+                <p><span class="custom">Paul Evans</span> <br><br> M: +46 73 990 88 58 <br> <a href=mailto:paul@paulevans-dop.com>paul@paulevans-dop.com</a></p>
+            </section>
+
+            <section class="box2">
+                <a href="https://www.instagram.com/paulevansdop/"><img class="icon" src="img/instagram_icon_white.png" alt="Instagram" height="30px" width=" "></a>
+            </section>
+
+            <section class="box3">
+                <a href="https://www.imdb.com/name/nm3171341/?ref_=fn_nm_nm_10"><img class="icon" src="img/imdb.png" alt="Imdb" height="30px" width=" "></a>
+            </section>
+
+            <section class="box4">
+                <p>Copyright 2022 <br> Paul Evans <br> Director of Photography</span> </p>
+            </section>
+        </footer> 
+        
+
+    </div> 
+</div>
+<script src="my_jquery_functions.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/main.js"></script>
+
+</body> 
+</html> 

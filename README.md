@@ -28,7 +28,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/PaulEvans78/paulevans-dop/tree/master">
-    <img src="img/me_babyblues.png" alt="Logo" width="200" height="100">
+    <img src="img/me_babyblues.png" alt="Logo" width="100" height="140">
   </a>
 
 <h3 align="center">Neon Cinema</h3>

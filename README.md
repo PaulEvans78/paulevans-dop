@@ -28,7 +28,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/PaulEvans78/paulevans-dop/tree/master">
-    <img src="img/neon_logo copy.png" alt="Logo" width="200" height="100">
+    <img src="img/me_babyblues.png" alt="Logo" width="200" height="100">
   </a>
 
 <h3 align="center">Neon Cinema</h3>
@@ -147,7 +147,7 @@ Paul Evans fsf: [Showreel](https://paulevans-dop.com/)
 [license-url]: https://github.com/PaulEvans78/paulevans-dop/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/paul-evans-3a74605/
-[product-screenshot]: src/assets/landingpage.png
+[product-screenshot]: img/doplandingpage.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

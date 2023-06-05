@@ -34,7 +34,7 @@
 <h3 align="center">Neon Cinema</h3>
 
   <p align="center">
-    Neon is a website built for a fictional company. Using HTML, CSS and JavaScript. Created by: Paul Evans.  
+   This is a website I built to showcase my work as a cinematographer. Created by: Paul Evans 
     <br />
     🌴 💻 🎥 📸 🤙
     <br />
@@ -55,13 +55,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#social">Social</a></li>
@@ -73,11 +67,11 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## My Portfolio
+## Paul Evans fsf
 
-[![https://paulevans.surge.sh/][product-screenshot]](https://paulevans.surge.sh/)
+[![https://paulevans-dop.com/][product-screenshot]](https://www.paulevans-dop.com)
 
-UX / UI Designer & Frontend Developer. Check it out and if you like what you see contact me at paul.evans.creative@gmail.com
+ This is a website I built to showcase my work as a cinematographer. Paul Evans is UX / UI Designer & Frontend Developer. If you like what you see contact me at  paul.evans.creative@gmail.com
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `PaulEvans78`, `portfolio`, `paulevanscreative/`, `paul-evans-3a74605/`, `gmail`, `paul.evans.creative`, `Portfolio`, `A website built in React to Showcase my work as a UX/UI designer, frontend Developer and Cinematographer.` -->
 
@@ -87,44 +81,12 @@ UX / UI Designer & Frontend Developer. Check it out and if you like what you see
 
 ### Built With
 
-* [![React][React.js]][React-url]
+HTML CSS Javascript
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/PaulEvans78/paulevans-dop.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -166,7 +128,6 @@ Paul Evans fsf: [Showreel](https://paulevans-dop.com/)
 ## Acknowledgments
 
 * [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,6 +169,5 @@ Paul Evans fsf: [Showreel](https://paulevans-dop.com/)
 
 
 
-This is a website to showcase my work as a cinematographer. Use the link beow to see the site live.
-Created by: Paul Evans
-https://www.paulevans-dop.com
+
+
